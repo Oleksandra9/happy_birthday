@@ -102,6 +102,21 @@ button {
   color: rgb(251, 255, 0);
   background-color: black;
 }
+.happy-list__button--color {
+  color: orangered;
+}
+.happy-list__button--color2 {
+  color: rgb(255, 0, 140);
+}
+.happy-list__button--color3 {
+  color: rgb(0, 13, 194);
+}
+.happy-list__button--color4 {
+  color: rgb(0, 133, 0);
+}
+.happy-list__button--color5 {
+  color: rgb(250, 0, 229);
+}
 .backdrop__modal img {
   display: block;
   max-width: 100%;
