@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 6</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="section__title animate__animated animate__heartBeat animate__backInRight animate__slower" >Дорога <span class="section__title--color">Тетяна:)</span> </h1>
+        <p class="text animate__animated animate__backInLeft animate__slower">Наша <span class="text--color">group_20</span>  вітає <span class="text--color-1">Тебе</span>  з <span class="text--color-size">Днем Народження</span> )) 🥳🌺💐🥂🎂 </p>
+        <ul class="happy-list">
+          <li class="happy-list__item">
+            <button class="happy-list__button animate__animated animate__backInUp animate__slower" type="button"data-modal-open>Позитиву</button>
+          </li>
+          <li class="happy-list__item">
+            <button class="happy-list__button animate__animated animate__backInUp animate__slower" type="button"data-modal-open-second>Оптимізму</button>
+          </li>
+          <li class="happy-list__item">
+            <button class="happy-list__button animate__animated animate__backInUp animate__slower" type="button"data-modal-open-third>Досягнення нових вершин</button>
+          </li>
+          <li class="happy-list__item">
+            <button class="happy-list__button animate__animated animate__backInUp animate__slower" type="button"data-modal-open-four>Посмішок</button>
+          </li>
+          <li class="happy-list__item">
+            <button class="happy-list__button animate__animated animate__backInUp animate__slower" type="button"data-modal-open-five>Натхнення</button>
+          </li>
+        </ul>
+        <div class="img_container">
+          <img class="image rotate-y" src="./photo/02.jpg" alt="Happy Birthday Taniya" height="450px">
+      </div>
+    
+      </div>
+    </section>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="backdrop__modal">
+        <img src="./photo/позитив.jpg" alt="позитив" >
+        <button type="button" class="backdrop__button" data-modal-close>
+        </button>
+      </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal-second>
+      <div class="backdrop__modal">
+        <img src="./photo/optimizm.jpg" alt="optimizm">
+        <button type="button" class="backdrop__button" data-modal-close-second>
+        </button>
+      </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal-third>
+      <div class="backdrop__modal">
+        <img src="./photo/pidkorennja-vershyn.jpg" alt="pidkorennja">
+        <button type="button" class="backdrop__button" data-modal-close-third>
+        </button>
+      </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal-four>
+      <div class="backdrop__modal">
+        <img src="./photo/Funny-Smile-Wallpaper-7.jpg" alt="smile">
+        <button type="button" class="backdrop__button" data-modal-close-four>
+        </button>
+      </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal-five>
+      <div class="backdrop__modal">
+        <img src="./photo/nathnennja.jpg" alt="nathnennja">
+        <button type="button" class="backdrop__button" data-modal-close-five>
+        </button>
+      </div>
+    </div>
+    
+    <script src="js/happy.js" type="module"></script>
+    <script src="js/modal_2.js" type="module"></script>
+    <script src="js/modal_3.js" type="module"></script>
+    <script src="js/modal_4.js" type="module"></script>
+    <script src="js/modal_5.js" type="module"></script>
+  </body>
+</html>
